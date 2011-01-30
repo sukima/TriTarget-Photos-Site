@@ -1,0 +1,21 @@
+﻿body{
+	color:white;
+	font-size:14px;
+	font-family:Verdana;
+	font-weight:bold;
+}
+
+a{
+	text-decoration:none;
+	color:white;
+}
+
+.centered_div{
+        width:675px;
+        height:450px;
+	position:absolute;
+	/* top: 50%; */
+	/* left: 50%; */
+	/* margin-top: -250px;  */
+	/* margin-left: -450px; */
+}

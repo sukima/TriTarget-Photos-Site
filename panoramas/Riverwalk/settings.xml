@@ -7,7 +7,6 @@
 	- pressing autorotation button on NavigationBar ommits timer and forces autorotation to start
 	- see: http://panozona.com/wiki/SaladoPlayer:Configuration#global
 	
-        WARNING: All paths must be relative to 3 parrent directories due to the file structure iWeb creates.
 -->
 <?xml version="1.0" encoding="utf-8"?>
 <SaladoPlayer>
@@ -18,10 +17,10 @@
     <modules>
         <NavigationBar path="../modules/NavigationBar.swf">
             <buttons path="../modules/images/buttons_30x30_green.png">
-                <button name="left" visible="false"/>
-                <button name="right" visible="false"/>
-                <button name="up" visible="false"/>
-                <button name="down" visible="false"/>
+                <!-- <button name="left" visible="false"/> -->
+                <!-- <button name="right" visible="false"/> -->
+                <!-- <button name="up" visible="false"/> -->
+                <!-- <button name="down" visible="false"/> -->
                 <!-- <combobox visible="false"/> -->
             </buttons>
         </NavigationBar>

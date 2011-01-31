@@ -1,0 +1,33 @@
+﻿<!-- 
+	
+	Configuring autorotation
+	
+	- autorotation is enabled by default
+	- every time when camera stops, timer is started. When timer reaches time described in delay (miliseconds) autortation is started
+	- pressing autorotation button on NavigationBar ommits timer and forces autorotation to start
+	- see: http://panozona.com/wiki/SaladoPlayer:Configuration#global
+	
+        WARNING: All paths must be relative to 3 parrent directories due to the file structure iWeb creates.
+-->
+<?xml version="1.0" encoding="utf-8"?>
+<SaladoPlayer>
+    <global debug="false" autorotation="enabled:true,delay:5000,speed:3"/>
+    <panoramas>
+        <panorama id="riverwalk" label="Riverwalk Mall" path="../../../panoramas/dz_Riverwalk/Riverwalk_f.xml" onEnter="act1"/>
+        <panorama id="park1" label="Jean Lafitte Park 1" path="../../../panoramas/dz_FinalPark1/FinalPark1_f.xml" onEnter="act2"/>
+    </panoramas>
+    <actions>
+        <action id="act1" content="SaldoPlayer.print([this is a test])"/>
+        <action id="act2" content="SaldoPlayer.print([this is another test])"/>
+    </actions>
+    <modules>
+        <NavigationBar path="../../../modules/NavigationBar.swf">
+            <buttons path="../../../modules/images/buttons_30x30_green.png">
+                <button name="left" visible="false"/>
+                <button name="right" visible="false"/>
+                <button name="up" visible="false"/>
+                <button name="down" visible="false"/>
+            </buttons>
+        </NavigationBar>
+    </modules>
+</SaladoPlayer>

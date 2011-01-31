@@ -13,20 +13,16 @@
 <SaladoPlayer>
     <global debug="false" autorotation="enabled:true,delay:5000,speed:3"/>
     <panoramas>
-        <panorama id="riverwalk" label="Riverwalk Mall" path="../../../panoramas/dz_Riverwalk/Riverwalk_f.xml" onEnter="act1"/>
-        <panorama id="park1" label="Jean Lafitte Park 1" path="../../../panoramas/dz_FinalPark1/FinalPark1_f.xml" onEnter="act2"/>
+        <panorama id="riverwalk" label="Riverwalk Mall" path="dz_Riverwalk/Riverwalk_f.xml"/>
     </panoramas>
-    <actions>
-        <action id="act1" content="SaldoPlayer.print([this is a test])"/>
-        <action id="act2" content="SaldoPlayer.print([this is another test])"/>
-    </actions>
     <modules>
-        <NavigationBar path="../../../modules/NavigationBar.swf">
-            <buttons path="../../../modules/images/buttons_30x30_green.png">
+        <NavigationBar path="../modules/NavigationBar.swf">
+            <buttons path="../modules/images/buttons_30x30_green.png">
                 <button name="left" visible="false"/>
                 <button name="right" visible="false"/>
                 <button name="up" visible="false"/>
                 <button name="down" visible="false"/>
+                <!-- <combobox visible="false"/> -->
             </buttons>
         </NavigationBar>
     </modules>

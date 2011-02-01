@@ -1,0 +1,28 @@
+﻿<!-- 
+	
+	Configuring autorotation
+	
+	- autorotation is enabled by default
+	- every time when camera stops, timer is started. When timer reaches time described in delay (miliseconds) autortation is started
+	- pressing autorotation button on NavigationBar ommits timer and forces autorotation to start
+	- see: http://panozona.com/wiki/SaladoPlayer:Configuration#global
+	
+-->
+<?xml version="1.0" encoding="utf-8"?>
+<SaladoPlayer>
+    <global debug="false" autorotation="enabled:true,delay:5000,speed:3"/>
+    <panoramas>
+        <panorama id="park2" label="Jean Lafitte Park 2" path="dz_Park2Final/Park2Final_f.xml"/>
+    </panoramas>
+    <modules>
+        <NavigationBar path="../modules/NavigationBar.swf">
+            <buttons path="../modules/images/buttons_30x30_green.png">
+                <!-- <button name="left" visible="false"/> -->
+                <!-- <button name="right" visible="false"/> -->
+                <!-- <button name="up" visible="false"/> -->
+                <!-- <button name="down" visible="false"/> -->
+                <!-- <combobox visible="false"/> -->
+            </buttons>
+        </NavigationBar>
+    </modules>
+</SaladoPlayer>

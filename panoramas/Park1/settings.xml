@@ -12,7 +12,7 @@
 <SaladoPlayer>
     <global debug="false" autorotation="enabled:true,delay:5000,speed:3"/>
     <panoramas>
-        <panorama id="park1" label="Jean Lafitte Park 1" path="dz_FinalPark1/FinalPark1_f.xml" onEnter="act2"/>
+        <panorama id="park1" label="Jean Lafitte Park 1" path="dz_FinalPark1/FinalPark1_f.xml"/>
     </panoramas>
     <modules>
         <NavigationBar path="../modules/NavigationBar.swf">

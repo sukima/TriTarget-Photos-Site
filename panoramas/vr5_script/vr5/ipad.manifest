@@ -1,0 +1,27 @@
+CACHE MANIFEST
+# Cache manifest version 1.0.0
+# -- DO NOT CHANGE NEXT LINES !!! ----------------------------------
+# VR5 pano viewer 1.0.0
+# Copyright (c) 2009-2010 Ninoslav Adzibaba http://www.vrhabitat.com/
+
+ipad.html
+ipad.css
+ipad.js
+bg_left.png
+bg_tile.png
+button.png
+btns.png
+../vr_files/styling/loading.gif
+../vr_files/styling/favicon.ico
+../vr_files/styling/icon-ipad.png
+../vr_files/styling/splash-ipad.png
+../vr_files/styling/loading.png
+../vr_files/styling/logo-ipad.png
+../vr_files/styling/offline.png
+../vr_files/config.js
+../vr_files/cube_faces/1024_5.jpg
+../vr_files/cube_faces/1024_4.jpg
+../vr_files/cube_faces/1024_3.jpg
+../vr_files/cube_faces/1024_2.jpg
+../vr_files/cube_faces/1024_1.jpg
+../vr_files/cube_faces/1024_0.jpg

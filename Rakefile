@@ -16,6 +16,6 @@ namespace :deploy do
   # task :all => [:dev, :live]
   
   def rsync(location)
-    sh "rsync -rtz --progress --delete --exclude '.git' --delete-excluded ./ #{location}/"
+    sh "rsync -artz --progress --delete --exclude '.git' --delete-excluded ./ #{location}/"
   end
 end
